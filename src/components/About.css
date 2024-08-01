@@ -1,0 +1,59 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  background-color: #000; /* Example background color */
+}
+
+.feature-image {
+  width: 80%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.about-text {
+  max-width: 90%;
+  margin: 20px 0;
+  color: white; /* Ensures text is white */
+}
+
+.mission-vision {
+  margin-top: 20px;
+}
+
+.mission, .vision {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #FFA300; /* Ensures heading is white */
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #FFA300; /* Ensures subheadings are white */
+  text-align: left;
+}
+
+p {
+  margin: 10px 0;
+  line-height: 1.5;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .about {
+    flex-direction: row;
+  }
+
+  .about-text {
+    margin-left: 75px;
+  }
+}

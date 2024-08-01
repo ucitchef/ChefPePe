@@ -1,0 +1,19 @@
+{
+  "title": "Bruschetta",
+  "image": "/images/bruschetta.jpeg",
+  "ingredients": [
+    "1 baguette, sliced",
+    "2 cups cherry tomatoes, diced",
+    "1/4 cup fresh basil, chopped",
+    "2 cloves garlic, minced",
+    "2 tbsp balsamic vinegar",
+    "2 tbsp olive oil",
+    "Salt and pepper to taste"
+  ],
+  "instructions": [
+    "Preheat your oven to 400°F (200°C).",
+    "Arrange baguette slices on a baking sheet and toast in the oven until golden.",
+    "In a bowl, combine tomatoes, basil, garlic, balsamic vinegar, olive oil, salt, and pepper.",
+    "Spoon the tomato mixture onto the toasted baguette slices and serve immediately."
+  ]
+}

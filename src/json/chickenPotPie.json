@@ -1,0 +1,32 @@
+{
+  "title": "Chicken Pot Pie",
+  "image": "/images/chicken-pot-pie.jpeg",
+  "ingredients": [
+    "2 cups cooked chicken, diced",
+    "1 cup frozen peas and carrots",
+    "1/2 cup onion, chopped",
+    "1/2 cup celery, chopped",
+    "1/4 cup butter",
+    "1/4 cup all-purpose flour",
+    "1 cup chicken broth",
+    "1 cup milk",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon black pepper",
+    "1/4 teaspoon garlic powder",
+    "1/4 teaspoon dried thyme",
+    "1/2 teaspoon dried parsley",
+    "1 package (14.1 oz) double-crust pie pastry",
+    "1 egg, beaten (for egg wash)"
+  ],
+  "instructions": [
+    "Preheat oven to 425°F (220°C).",
+    "In a saucepan, melt butter over medium heat. Stir in flour until well combined and cook for about 1 minute.",
+    "Gradually stir in chicken broth and milk, and cook until the mixture thickens and is smooth.",
+    "Add salt, pepper, garlic powder, thyme, and parsley. Mix in the chicken, peas, carrots, onion, and celery.",
+    "Roll out one pie crust and fit it into a 9-inch pie plate. Pour the chicken mixture into the crust.",
+    "Cover with the second pie crust. Trim, seal, and flute the edges. Cut slits in the top crust to allow steam to escape.",
+    "Brush the top with beaten egg.",
+    "Bake in the preheated oven for 30 to 35 minutes, or until the crust is golden brown.",
+    "Let the pie cool for 10 minutes before serving."
+  ]
+}

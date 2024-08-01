@@ -1,0 +1,100 @@
+.footer {
+  background-color: #FFA300; /* Background color of the footer */
+  color: #FFF; /* Default text color */
+  padding: 20px 0; /* Padding for the footer */
+  margin-top: 10%; /* Space above the footer */
+}
+
+.footer-content {
+  max-width: 1200px; /* Maximum width of the content */
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 0 20px; /* Padding inside the content container */
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Space out the elements */
+  align-items: center; /* Align items vertically */
+  margin-bottom: 20px; /* Space below the top section */
+}
+
+.footer-logo {
+  font-size: 24px; /* Font size for the heading */
+  color: #FFF; /* White color for the heading text */
+  text-align: center; /* Align center */
+}
+
+.social-links {
+  display: flex;
+  gap: 30px; /* Space between social icons */
+  justify-content: center; /* Center the social links */
+  margin: 20px 0;
+}
+
+.social-links a {
+  color: #FFF; /* Color of the social icons */
+  font-size: 24px; /* Size of the social icons */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.social-links a:hover {
+  color: #FFF; /* Color of the icons on hover */
+}
+
+.footer-nav {
+  display: flex;
+  gap: 10px; /* Space between navigation links */
+  justify-content: center; /* Align center */
+}
+
+.footer-nav a {
+  color: #FFF; /* Color of the navigation links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.footer-nav a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.footer-bottom {
+  text-align: center; /* Center align the text in the bottom section */
+}
+
+.footer-bottom p {
+  line-height: 1.5;
+  text-align: center;
+  font-weight: bold;
+  margin: 0; /* Remove default margin */
+  font-size: 16px; /* Font size for the bottom text */
+  color: #FFF; /* Color of the text */
+}
+
+.footer-bottom a {
+  color: #FFF; /* Color of the link */
+  text-decoration: none; /* Remove underline from the link */
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+@media (min-width: 769px) {
+  .footer-top {
+    flex-direction: row;
+  }
+
+  .footer-logo {
+    flex: 1;
+    text-align: left;
+  }
+
+  .social-links {
+    flex: 1;
+  }
+
+  .footer-nav {
+    flex: 1;
+    justify-content: flex-end;
+  }
+}

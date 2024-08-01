@@ -1,0 +1,20 @@
+{
+  "title": "Stuffed Mushrooms",
+  "image": "/images/stuffedMushrooms.jpeg",
+  "ingredients": [
+    "12 large mushrooms, stems removed and chopped",
+    "1/2 cup cream cheese",
+    "1/4 cup grated Parmesan cheese",
+    "2 cloves garlic, minced",
+    "2 tbsp fresh parsley, chopped",
+    "Salt and pepper to taste",
+    "Olive oil"
+  ],
+  "instructions": [
+    "Preheat your oven to 375°F (190°C).",
+    "In a skillet, heat olive oil over medium heat. Add chopped mushroom stems and garlic, cooking until tender.",
+    "In a bowl, mix cream cheese, Parmesan, parsley, salt, and pepper.",
+    "Stuff the mushroom caps with the mixture and place them on a baking sheet.",
+    "Bake for 20 minutes, or until the mushrooms are tender and the tops are golden."
+  ]
+}

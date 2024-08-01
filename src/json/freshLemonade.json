@@ -1,0 +1,17 @@
+{
+  "title": "Fresh Lemonade",
+  "image": "/images/lemonade.jpg",
+  "ingredients": [
+    "1 cup fresh lemon juice (about 4-6 lemons)",
+    "1 cup sugar",
+    "4 cups cold water",
+    "Ice cubes",
+    "Lemon slices for garnish"
+  ],
+  "instructions": [
+    "In a pitcher, mix the lemon juice and sugar until the sugar is dissolved.",
+    "Add cold water and stir until well combined.",
+    "Refrigerate until chilled.",
+    "Serve over ice and garnish with lemon slices."
+  ]
+}

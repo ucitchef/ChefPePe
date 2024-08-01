@@ -1,0 +1,149 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align items to the center */
+  padding: 20px;
+  color: white; /* Ensures text is white */
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #FFA300; /* Ensures heading is white */
+  text-align: left;
+}
+
+.text-container {
+  flex: 1; /* Allows text container to take up remaining space */
+  max-width: 600px; /* Optional: Restricts width of the text area */
+  padding: 0 20px; /* Adds padding to prevent overflow */
+  box-sizing: border-box; /* Ensures padding doesn't cause overflow */
+}
+
+.images-container {
+  display: flex;
+  justify-content: space-around; /* Space images evenly */
+  width: 100%;
+  max-width: 600px;
+  margin: 20px 0; /* Adds space between text and images */
+  padding: 0 20px; /* Adds padding to prevent overflow */
+  box-sizing: border-box; /* Ensures padding doesn't cause overflow */
+}
+
+.logo, .cpepe-image {
+  width: 45%; /* Makes each image 45% of the container width */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 50%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff9900;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px; /* Adds some space above the button */
+  display: block; /* Ensures the button takes full width below the text */
+}
+
+.cpepe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pepe-text {
+  text-align: center; /* Align text to the center */
+  font-size: 1.7rem; /* Default font size */
+}
+
+.highlight {
+  color: #FFA300; /* Example color for highlighting */
+}
+
+.home-address {
+  font-family: monospace; /* Example font for contract address */
+  font-size: 1.5rem; /* Default font size */
+}
+
+/* Responsive font sizes */
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 1.8rem; /* Slightly smaller on medium screens */
+  }
+
+  .pepe-text {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+
+  .home-address {
+    font-size: 1.3rem; /* Adjust font size for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem; /* Smaller font size on small screens */
+  }
+
+  .pepe-text {
+    font-size: 1.3rem; /* Adjust font size for smaller screens */
+  }
+
+  .home-address {
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
+  }
+
+  .text-container {
+    padding: 0 10px; /* Less padding on smaller screens */
+  }
+
+  .images-container {
+    flex-direction: column; /* Stack images vertically on small screens */
+    align-items: center; /* Center images vertically */
+  }
+
+  .logo, .cpepe-image {
+    width: 80%; /* Larger images on small screens */
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.2rem; /* Even smaller font size on extra small screens */
+  }
+
+  .pepe-text {
+    font-size: 1.2rem; /* Adjust font size for extra small screens */
+  }
+
+  .home-address {
+    font-size: 0.8rem; /* Adjust font size for extra small screens */
+  }
+
+  .logo, .cpepe-image {
+    width: 100%; /* Full-width images on extra small screens */
+  }
+}
+
+@media (min-width: 769px) {
+  .home {
+    flex-direction: row; /* Switch to row layout on larger screens */
+    align-items: flex-start; /* Align items to the top */
+    padding: 50px;
+  }
+
+  .text-container {
+    max-width: 50%; /* Allow text container to use half of the available space */
+  }
+
+  .images-container {
+    width: 50%; /* Makes the container half of the home container */
+    margin: 0 20px; /* Adds space between the images */
+  }
+
+  .logo, .cpepe-image {
+    width: 45%; /* Makes each image 45% of the container width */
+    margin: 0 20px; /* Adds space between the images */
+  }
+}

@@ -1,0 +1,102 @@
+.cpepe-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.cpepe-image {
+  width: 80%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 50%;
+  max-width: 250px;
+}
+
+.cpepe-text {
+  max-width: 600px;
+}
+
+.cpepe-text h3 {
+  margin: 0 0 10px 0;
+  color: #FFA300; /* Header color */
+  font-size: 2rem; /* Responsive font size */
+  text-align: center;
+}
+
+.cpepe-text p {
+  margin: 5px 0;
+  color: white; /* Text color */
+  font-size: 1.5rem; /* Responsive font size */
+  text-align: center;
+}
+
+.cpepe-text h4 {
+  margin: 10px 0 5px 0;
+  color: white; /* Address label color */
+  font-size: 1.2rem; /* Responsive font size */
+  text-align: center;
+}
+
+.contract-address a {
+  color: #FFA300; /* Color for the address link */
+  text-decoration: none;
+  font-size: 1.5rem; /* Responsive font size */
+}
+
+.contract-address a:hover {
+  text-decoration: underline;
+}
+
+.highlight {
+  color: #FFA300; /* Color for UCIT.Shop text */
+}
+
+@media (max-width: 768px) {
+  .cpepe-image {
+    width: 60%;
+    max-width: 200px;
+    margin: 10px 0;
+  }
+
+  .cpepe-text h3 {
+    font-size: 1.5rem; /* Adjusted for smaller screens */
+  }
+
+  .cpepe-text p {
+    font-size: 1.2rem; /* Adjusted for smaller screens */
+  }
+
+  .cpepe-text h4 {
+    font-size: 1rem; /* Adjusted for smaller screens */
+  }
+
+  .contract-address a {
+    font-size: 0.9rem; /* Adjusted for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .cpepe-image {
+    width: 80%;
+    max-width: 150px;
+  }
+
+  .cpepe-text h3 {
+    font-size: 1.2rem; /* Further adjustment for very small screens */
+  }
+
+  .cpepe-text p {
+    font-size: 1rem; /* Further adjustment for very small screens */
+  }
+
+  .cpepe-text h4 {
+    font-size: 0.9rem; /* Further adjustment for very small screens */
+  }
+
+  .contract-address a {
+    font-size: 0.6rem; /* Further adjustment for very small screens */
+  }
+}
